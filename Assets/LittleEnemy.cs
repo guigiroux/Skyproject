@@ -115,8 +115,8 @@ public class LittleEnemy : MonoBehaviour
      
         if (other.gameObject.name == "sword" && i == 0)
         {
-    
-           
+
+            GetComponent<AudioSource>().Play();
             zlife -= playerscript.force;
             
             i = 1;
@@ -124,7 +124,7 @@ public class LittleEnemy : MonoBehaviour
         }
         if (other.gameObject.name == "arrow(Clone)")
         {
-
+            GetComponent<AudioSource>().Play();
             zlife -= playerscript.agi ;
             i = 1;
 
