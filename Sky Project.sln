@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sky Project", "Sky Project.csproj", "{58DF615D-14D0-D50F-C84F-AB905816EE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sky Project.Plugins", "Sky Project.Plugins.csproj", "{639EC654-8FDC-F850-9B43-26D9498567A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sky Project.Editor.Plugins", "Sky Project.Editor.Plugins.csproj", "{EA9B1EAA-6472-A31F-06FD-71D380D51E14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58DF615D-14D0-D50F-C84F-AB905816EE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DF615D-14D0-D50F-C84F-AB905816EE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DF615D-14D0-D50F-C84F-AB905816EE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DF615D-14D0-D50F-C84F-AB905816EE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{639EC654-8FDC-F850-9B43-26D9498567A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{639EC654-8FDC-F850-9B43-26D9498567A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{639EC654-8FDC-F850-9B43-26D9498567A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{639EC654-8FDC-F850-9B43-26D9498567A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA9B1EAA-6472-A31F-06FD-71D380D51E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9B1EAA-6472-A31F-06FD-71D380D51E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9B1EAA-6472-A31F-06FD-71D380D51E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9B1EAA-6472-A31F-06FD-71D380D51E14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
