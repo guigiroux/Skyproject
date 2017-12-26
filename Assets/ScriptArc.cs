@@ -36,7 +36,7 @@ public class ScriptArc : MonoBehaviour {
         {
 
             Fire();
-            Destroy(arrow, 5f);
+            Destroy(arrow, 2f);
 
 
         }
@@ -53,7 +53,7 @@ public class ScriptArc : MonoBehaviour {
         if (arrow != null)
         {
 
-          arrow.GetComponent<Rigidbody>().AddForce((arrow.transform.up * -1) * 1400); 
+          arrow.GetComponent<Rigidbody>().AddForce((arrow.transform.up * -1) * 2000); 
                
         }
     

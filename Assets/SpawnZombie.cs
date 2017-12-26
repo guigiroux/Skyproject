@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnZombie : MonoBehaviour {
     public GameObject Zombie, zombie;
     public Transform North, South, West, East, SpawnZ;
-    public int i;
+    public int i, zombiemort;
     public float timer;
 	// Use this for initialization
 	void Start () {
@@ -24,10 +24,10 @@ public class SpawnZombie : MonoBehaviour {
  
             if(i != 5)
             {
-                timer += Time.deltaTime;
+            timer += Time.deltaTime;
             }
         
-        if (timer > 10)
+        if (timer > 5)
         {
             Spawn();
             
